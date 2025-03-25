@@ -13,6 +13,14 @@ This project automates the download of course content from your LMS (e.g., Moodl
 
 ---
 
+## 🚀 Enviornment variables
+
+USERNAME=your_lms_username
+PASSWORD=your_lms_password
+LOGIN_URL=https://your-lms-site/login/index.php
+DASHBOARD_URL=https://your-lms-site/my/
+
+
 ## ⚙️ Setup Instructions
 
 ### 🧪 1. Prerequisites
@@ -22,6 +30,9 @@ This project automates the download of course content from your LMS (e.g., Moodl
 - To verify python installation on your machine , run python --version in command prompt(terminal)
 
 ---
+###  🖥 Windows
+cd lms\
+setup_run.bat
 
 ### 🖥 macOS/Linux
 
@@ -33,14 +44,6 @@ cd lms/
 chmod +x setup_run.sh
 ./setup_run.sh
 
-### 🖥 Windows
-cd lms\
-setup_run.bat
-
-USERNAME=your_lms_username
-PASSWORD=your_lms_password
-LOGIN_URL=https://your-lms-site/login/index.php
-DASHBOARD_URL=https://your-lms-site/my/
 
 
-## Contribution
+### Contribution
